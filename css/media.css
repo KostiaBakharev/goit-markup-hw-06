@@ -1,0 +1,151 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 428px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* FEATURES */
+
+
+  .features-list {
+    gap: 72px 24px;
+  }
+
+  .features-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .features-subtitle {
+    text-align: start;
+  }
+
+  /* OUR TEAM */
+  .team-list {
+    gap: 64px 24px;
+  }
+
+  /* Customers */
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customers-list-item {
+    width: 168px;
+    width: calc((100% -2 * 24px) / 3);
+  }
+
+  /* FOOOTER */
+  .footer-container {
+    width: 552px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+  }
+
+  .footer-wrapper {
+    width: 264px;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .social
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .main-text {
+    font-weight: 400;
+  }
+
+  /* FEATURES */
+
+  .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .features-item {
+    width: calc((100% - 3 * 24px) / 3);
+  }
+
+  .features-list {
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .features-subtitle,
+  .team-subtitle,
+  .projects-item-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .features-item-icon {
+    margin-bottom: 8px;
+    background-color: var(--cloud);
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* OUR JOB */
+  .job {
+    display: flex;
+    padding-bottom: 120px;
+  }
+
+  .job-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .job-img {
+    display: block;
+  }
+
+  .job-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+
+  /* OUR TEAM */
+  .our-team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  /* Customers */
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 5 * 24px) / 6);
+  }
+}
