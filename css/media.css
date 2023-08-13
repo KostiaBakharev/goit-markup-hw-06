@@ -7,6 +7,60 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .navigation {
+    display: flex;
+    margin-left: 120px;
+    /* margin-right: 120px; */
+  }
+
+  .header-address {
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .address-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .address-item-link {
+
+    padding: 0;
+  }
+
+  .hero {
+    padding: 112px 136px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+      url(../images/hero-bg-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+          rgba(46, 47, 66, 0.70)),
+        url(../images/hero-bg-tablet-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+
+  .order-service-button {
+    margin-top: 36px;
   }
 
   /* FEATURES */
@@ -36,12 +90,12 @@
 
   .customers-list-item {
     width: 168px;
-    width: calc((100% -2 * 24px) / 3);
+
   }
 
   /* FOOOTER */
   .footer-container {
-    width: 552px;
+    width: 582px;
     display: flex;
     flex-wrap: wrap;
     text-align: start;
@@ -49,6 +103,10 @@
 
   .footer-wrapper {
     width: 264px;
+    margin: 0;
+    margin-right: 24px;
+    margin-bottom: 72px;
+
   }
 
   .footer-form {
@@ -57,11 +115,17 @@
     gap: 24px;
   }
 
+  .footer-text {
+    width: 264px;
+  }
+
   .footer-input {
     width: 264px;
   }
 
-  .social
+  .modal {
+    width: 408px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -71,8 +135,43 @@
     padding-right: 15px;
   }
 
+  .navigation {
+    margin-left: 80px;
+  }
+
+  .address-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .address-item-link {
+    font-size: 16px;
+  }
+
   .main-text {
     font-weight: 400;
+  }
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+        rgba(46, 47, 66, 0.70)),
+      url(../images/hero-bg-pc.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.70),
+          rgba(46, 47, 66, 0.70)),
+        url(../images/hero-bg-pc-2x.jpg);
+    }
+  }
+
+  .order-service-button {
+    margin-top: 48px;
   }
 
   /* FEATURES */
@@ -147,5 +246,29 @@
 
   .customers-list-item {
     width: calc((100% - 5 * 24px) / 6);
+  }
+
+  /* FOOOTER */
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-container {
+    width: 100%;
+    display: flex;
+    /* text-align: start; */
+  }
+
+  .footer-wrapper {
+    width: 264px;
+    margin-bottom: 0;
+    margin-right: 120px;
+
+  }
+
+  .social {
+    margin-right: 80px;
+    margin-bottom: 0;
   }
 }
