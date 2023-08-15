@@ -55,7 +55,7 @@ textarea {
 
 
 .container {
-  max-width: 1158px;
+  max-width: 428px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -349,7 +349,6 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* gap: 56px; */
   margin-top: 48px;
 }
 
@@ -397,7 +396,6 @@ textarea {
   background-position: center;
   background-size: cover;
 
-  display: flex;
   padding: 112px 54px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
@@ -470,7 +468,6 @@ textarea {
 /* Features */
 
 .features {
-  display: flex;
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -497,14 +494,7 @@ textarea {
 
 .team-subtitle,
 .projects-item-subtitle {
-  /* color: var(--navyblue);
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  margin-bottom: 8px; */
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -527,22 +517,15 @@ textarea {
 
 .job {
   display: none;
-  /* display: flex;
-  padding-bottom: 120px; */
 }
 
-.job-list {
-  /* display: flex;
-  gap: 24px; */
-}
+.job-list {}
 
 .job-img {
   display: none;
 }
 
-.job-item {
-  /* width: calc((100% -2 * 24px) / 3); */
-}
+.job-item {}
 
 /* Our team */
 
@@ -581,16 +564,8 @@ textarea {
 }
 
 
-.team-subtitle {
-  display: flex;
-  text-align: center;
 
-}
 
-.team-text {
-  display: flex;
-  text-align: center;
-}
 
 .team-card {
   padding: 32px 0;
@@ -721,16 +696,11 @@ textarea {
 
 .footer .logo {
   display: inline-block;
-  /* justify-content: center; */
   margin-bottom: 16px;
   padding: 0;
 }
 
 .social {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   margin-bottom: 72px;
 
 }
@@ -790,8 +760,6 @@ textarea {
 .footer-form {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
   gap: 16px;
 }
 
@@ -826,8 +794,6 @@ textarea {
   background-color: var(--iris);
   color: var(--white);
   display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 8px 24px;
   margin: 0 auto;
 

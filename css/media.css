@@ -1,8 +1,4 @@
-@media screen and (min-width: 428px) {
-  .container {
-    max-width: 428px;
-  }
-}
+@media screen and (min-width: 428px) {}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -17,12 +13,11 @@
   .navigation {
     display: flex;
     margin-left: 120px;
-    /* margin-right: 120px; */
+
   }
 
   .header-address {
     display: flex;
-    /* flex-direction: column; */
   }
 
   .address-list {
@@ -190,9 +185,7 @@
     flex-wrap: nowrap;
   }
 
-  .features-subtitle,
-  .team-subtitle,
-  .projects-item-subtitle {
+  .features-subtitle {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -257,11 +250,9 @@
   .footer-container {
     width: 100%;
     display: flex;
-    /* text-align: start; */
   }
 
   .footer-wrapper {
-    width: 264px;
     margin-bottom: 0;
     margin-right: 120px;
 
